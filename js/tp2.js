@@ -3,6 +3,8 @@
 
 let edad = prompt("Ingrese su edad");
 
-while (edad >= 18) {
+if (edad >= 18) {
   document.write("Ya puede conducir");
+} else {
+  document.write("No puede conducir");
 }
