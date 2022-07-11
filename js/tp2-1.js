@@ -8,3 +8,10 @@ if (edad >= 18) {
 } else {
   document.write("No puede conducir");
 }
+
+let cantidadMates = 20;
+
+do {
+  document.write("<br>Mates cebados: " + cantidadMates);
+  cantidadMates--;
+} while (cantidadMates >= 1);
